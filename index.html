@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ultimate Reddit Search</title>
+        <link href="./styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>ULTIMATE REDDIT SEARCH</h1>
+        <h4>
+            Easily find things on Reddit through Google search while avoiding AI overviews and automatic translations.
+        </h4>
+        <label id="subreddit-label"
+            >Subreddit (Optional)
+            <div id="subreddit-input-area">
+                <span>r/</span>
+                <input type="text" id="subreddit-input" placeholder="Enter name of a subreddit..." />
+            </div>
+        </label>
+        <label id="search-bar-label"
+            >Search query
+            <input type="text" id="search-bar-input" placeholder="Search..." />
+            <div id="tooltip">Please fill in this field</div>
+        </label>
+        <button id="search-bar-button">SEARCH</button>
+
+        <script type="text/javascript" src="./app.js"></script>
+    </body>
+</html>
